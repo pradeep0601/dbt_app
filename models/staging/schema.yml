@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: customers_stg
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: orders_stg
+  - name: payments_stg
+    
